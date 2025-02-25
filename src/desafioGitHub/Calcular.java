@@ -19,6 +19,17 @@ public class Calcular {
 		
 		System.out.println("O valor da área é de " + Calculos.calcularArea(base, altura));
 		
+		System.out.print("Você deseja saber o perímetro(sim/nao)?");
+		String choice = sc.next();
+		
+		if(choice.equalsIgnoreCase("sim")) {
+			System.out.println("O perímetro é: " + Calculos.calcularPerimetro(base, altura));
+		}else {
+			System.out.println("Obrigado pela preferência!!");
+		}
+		
+		sc.close();
+		System.exit(0);
 		
 		
 	}
