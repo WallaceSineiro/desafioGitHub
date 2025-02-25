@@ -16,8 +16,8 @@ public class Calcular {
 		System.out.print("Agora me diga o valor da altura: ");
 		double altura = sc.nextDouble();
 		
-		double area = base * altura;
-		System.out.println("O valor da área é de " + area);
+		
+		System.out.println("O valor da área é de " + Calculos.calcularArea(base, altura));
 		
 		
 		
